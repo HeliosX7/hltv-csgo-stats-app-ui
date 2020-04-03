@@ -1,0 +1,260 @@
+name: csgo
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/teams.json
+    - assets/team_profiles.json
+    - assets/player_profiles.json
+    - assets/team_logos/4608.png
+    - assets/team_logos/6665.png
+    - assets/team_logos/5995.png
+    - assets/team_logos/4494.png
+    - assets/team_logos/4991.png
+    - assets/team_logos/5973.png
+    - assets/team_logos/10399.png
+    - assets/team_logos/8474.png
+    - assets/team_logos/9565.png
+    - assets/team_logos/6667.png
+    - assets/team_logos/8297.png
+    - assets/team_logos/4411.png
+    - assets/team_logos/8362.png
+    - assets/team_logos/5005.png
+    - assets/team_logos/10503.png
+    - assets/team_logos/10514.png
+    - assets/team_logos/6902.png
+    - assets/team_logos/7175.png
+    - assets/team_logos/7532.png
+    - assets/team_logos/5378.png
+    - assets/team_logos/8135.png
+    - assets/team_logos/4869.png
+    - assets/team_logos/7533.png
+    - assets/team_logos/9215.png
+    - assets/team_logos/7020.png
+    - assets/team_logos/10606.png
+    - assets/team_logos/6211.png
+    - assets/team_logos/5752.png
+    - assets/team_logos/7865.png
+    - assets/team_logos/4863.png
+    - assets/player_images/7594.jpeg
+    - assets/player_images/7998.jpeg
+    - assets/player_images/8918.jpeg
+    - assets/player_images/11840.jpeg
+    - assets/player_images/16947.jpeg
+    - assets/player_images/4954.jpeg
+    - assets/player_images/7398.jpeg
+    - assets/player_images/7412.jpeg
+    - assets/player_images/7592.jpeg
+    - assets/player_images/9032.jpeg
+    - assets/player_images/284.jpeg
+    - assets/player_images/3972.jpeg
+    - assets/player_images/7167.jpeg
+    - assets/player_images/9616.jpeg
+    - assets/player_images/9618.jpeg
+    - assets/player_images/429.jpeg
+    - assets/player_images/2730.jpeg
+    - assets/player_images/8574.jpeg
+    - assets/player_images/9960.jpeg
+    - assets/player_images/11816.jpeg
+    - assets/player_images/3055.jpeg
+    - assets/player_images/3849.jpeg
+    - assets/player_images/7528.jpeg
+    - assets/player_images/11110.jpeg
+    - assets/player_images/13666.jpeg
+    - assets/player_images/7687.jpeg
+    - assets/player_images/8520.jpeg
+    - assets/player_images/8738.jpeg
+    - assets/player_images/8797.jpeg
+    - assets/player_images/10394.jpeg
+    - assets/player_images/8507.jpeg
+    - assets/player_images/8523.jpeg
+    - assets/player_images/9136.jpeg
+    - assets/player_images/10671.jpeg
+    - assets/player_images/11219.jpeg
+    - assets/player_images/4679.jpeg
+    - assets/player_images/8082.jpeg
+    - assets/player_images/8248.jpeg
+    - assets/player_images/9686.jpeg
+    - assets/player_images/10588.jpeg
+    - assets/player_images/1225.jpeg
+    - assets/player_images/7169.jpeg
+    - assets/player_images/7322.jpeg
+    - assets/player_images/11893.jpeg
+    - assets/player_images/14176.jpeg
+    - assets/player_images/885.jpeg
+    - assets/player_images/3741.jpeg
+    - assets/player_images/8183.jpeg
+    - assets/player_images/9216.jpeg
+    - assets/player_images/18053.jpeg
+    - assets/player_images/8565.jpeg
+    - assets/player_images/12521.jpeg
+    - assets/player_images/12553.jpeg
+    - assets/player_images/12822.jpeg
+    - assets/player_images/15631.jpeg
+    - assets/player_images/7443.jpeg
+    - assets/player_images/9261.jpeg
+    - assets/player_images/9278.jpeg
+    - assets/player_images/13670.jpeg
+    - assets/player_images/14218.jpeg
+    - assets/player_images/8151.jpeg
+    - assets/player_images/9612.jpeg
+    - assets/player_images/10330.jpeg
+    - assets/player_images/14148.jpeg
+    - assets/player_images/14419.jpeg
+    - assets/player_images/7805.jpeg
+    - assets/player_images/9078.jpeg
+    - assets/player_images/12126.jpeg
+    - assets/player_images/14614.jpeg
+    - assets/player_images/15165.jpeg
+    - assets/player_images/7168.jpeg
+    - assets/player_images/9031.jpeg
+    - assets/player_images/9816.jpeg
+    - assets/player_images/10449.jpeg
+    - assets/player_images/10981.jpeg
+    - assets/player_images/7131.jpeg
+    - assets/player_images/8521.jpeg
+    - assets/player_images/8735.jpeg
+    - assets/player_images/9056.jpeg
+    - assets/player_images/14365.jpeg
+    - assets/player_images/1045.jpeg
+    - assets/player_images/1378.jpeg
+    - assets/player_images/6904.jpeg
+    - assets/player_images/7218.jpeg
+    - assets/player_images/11777.jpeg
+    - assets/player_images/922.jpeg
+    - assets/player_images/7964.jpeg
+    - assets/player_images/8611.jpeg
+    - assets/player_images/9896.jpeg
+    - assets/player_images/10994.jpeg
+    - assets/player_images/5794.jpeg
+    - assets/player_images/5796.jpeg
+    - assets/player_images/7266.jpeg
+    - assets/player_images/7938.jpeg
+    - assets/player_images/12781.jpeg
+    - assets/player_images/334.jpeg
+    - assets/player_images/11716.jpeg
+    - assets/player_images/11942.jpeg
+    - assets/player_images/13239.jpeg
+    - assets/player_images/13776.jpeg
+    - assets/player_images/8726.jpeg
+    - assets/player_images/11654.jpeg
+    - assets/player_images/12732.jpeg
+    - assets/player_images/12733.jpeg
+    - assets/player_images/13157.jpeg
+    - assets/player_images/695.jpeg
+    - assets/player_images/4076.jpeg
+    - assets/player_images/5479.jpeg
+    - assets/player_images/7248.jpeg
+    - assets/player_images/11916.jpeg
+    - assets/player_images/2469.jpeg
+    - assets/player_images/7156.jpeg
+    - assets/player_images/8095.jpeg
+    - assets/player_images/8394.jpeg
+    - assets/player_images/8875.jpeg
+    - assets/player_images/2023.jpeg
+    - assets/player_images/5736.jpeg
+    - assets/player_images/8564.jpeg
+    - assets/player_images/9217.jpeg
+    - assets/player_images/14737.jpeg
+    - assets/player_images/7716.jpeg
+    - assets/player_images/8789.jpeg
+    - assets/player_images/12731.jpeg
+    - assets/player_images/14273.jpeg
+    - assets/player_images/18317.jpeg
+    - assets/player_images/2476.jpeg
+    - assets/player_images/4216.jpeg
+    - assets/player_images/11283.jpeg
+    - assets/player_images/11343.jpeg
+    - assets/player_images/12030.jpeg
+    - assets/player_images/9102.jpeg
+    - assets/player_images/9115.jpeg
+    - assets/player_images/11140.jpeg
+    - assets/player_images/11162.jpeg
+    - assets/player_images/11485.jpeg
+    - assets/player_images/8711.jpeg
+    - assets/player_images/11630.jpeg
+    - assets/player_images/12713.jpeg
+    - assets/player_images/13230.jpeg
+    - assets/player_images/13249.jpeg
+    - assets/player_images/7821.jpeg
+    - assets/player_images/8576.jpeg
+    - assets/player_images/9271.jpeg
+    - assets/player_images/9819.jpeg
+    - assets/player_images/13396.jpeg
+    - assets/player_images/7028.jpeg
+    - assets/player_images/8552.jpeg
+    - assets/player_images/8605.jpeg
+    - assets/player_images/10774.jpeg
+    - assets/player_images/11188.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: OpenSans
+      fonts:
+         - asset: fonts/OpenSans-Regular.ttf
+    - family: Poppins
+      fonts:
+         - asset: fonts/Poppins-Regular.ttf
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
